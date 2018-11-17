@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<button onclick="myFunction()">Show detail</button>
+
+		<div id="header" style="display: none;">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam praesentium qui, quaerat obcaecati animi corporis veritatis ratione, necessitatibus architecto quas rerum odio cupiditate similique ullam eum? Vel quia, doloribus nostrum.
+			</p>
+		</div>
+		<script>
+			function myFunction() {
+				var header = document.getElementById('header');			
+				if (header.style.display === "none") {
+				    header.style.display = "block";
+				} else {
+				    header.style.display = "none";
+				}
+			}		
+		</script>
+	</body>
+</html>

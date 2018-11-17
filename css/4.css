@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 1000px;
+	height: 1000px;
+	border: 5px solid black;
+	margin: 0 auto;
+}
+
+/*Css header start*/
+#header {
+	width: 900px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#header .logo {
+	float: left;
+	width: 200px;
+	height: 150px;
+	background-color: red;
+	border: 5px solid black;
+}
+
+#header .detail {
+	float: right;
+	width: 400px;
+	height: 100px;
+	background-color: yellow;
+	border: 5px solid black;
+	margin-top: 20px;
+}
+/*Css header end*/
+
+/*Css menu start*/
+#menu {
+	width: 900px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: green;
+	border: 5px solid black;
+}
+/*Css menu end*/
+
+/*Css body start*/
+
+#body {
+	width: 900px;
+	height: 580px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 5px solid black;
+}
+
+#body .left {
+	float: left;
+	width: 400px;
+	height: 450px;
+	margin: 20px;
+	border: 5px solid black;
+	background-color: blue;
+}
+
+#body .right .block_1, .block_2 {
+	float: right;
+	width: 300px;
+	height: 200px;
+	margin: 30px;
+	border: 5px solid black;
+	background-color: gray;
+}
+
+.block_2 {
+	background-color: orange;
+}
+
+/*Css body end*/
+
+/*Css footer stort*/
+#footer {
+	width: 900px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 5px solid black;
+	background-color: pink;
+}
+/*Css footer end*/

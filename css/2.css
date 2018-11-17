@@ -1,0 +1,53 @@
+*{ margin: 0; padding: 0;}
+#left{
+    padding: 40px;
+    width: 400px;
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+#right{
+    padding: 40px;
+    width: 600px;
+    float: left;
+    border: 1px solid black;
+}
+.head{width: 400px; height: 45px;}
+.head .login, .create{
+    text-align: center;
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+.head .create{
+    color: blue;
+    border-bottom: 5px solid blue;
+}
+.body .title, .inp{
+    float: left;
+    padding: 10px;
+}
+.body .inp input{
+    margin: 10px;
+}
+.body .title p {
+    margin: 21px;
+}
+
+.body .title{ 
+    width: 130px;
+    padding-top: 0;
+}
+
+.body .inp{
+    width: 400xp;
+}
+
+.body .inp #text{
+    width: 217px;
+}
+
+body{
+    background-color:#8b9a95;
+}
