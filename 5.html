@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Menu</title>
+	</head>
+	<style>
+		ul li{
+			list-style: none;
+			float: left;
+			width: 120px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			border: 1px solid #fff;
+			background-color: blue;
+		}
+		a {
+			text-decoration: none;
+			color: #fff;
+		}
+		 ul li:hover {
+		 	background-color: yellow;
+		 	border: 1px dotted red;
+		 	width: 150px;
+		 	height: 100px;
+		 	line-height: 100px;
+		 }
+		 ul li a:hover {
+		 	color: red;
+		 }
+		 #header{
+		 	width: 100px;
+		 	height: 100px;
+		 	background-color: red;
+		 	clear: both;
+		 	border-radius: 999px;
+		 	transition: width 4s, background-color 4s, transform 4s, border-radius 4s;
+		 }
+		 #header:hover{
+		 	width: 200px;
+		 	height: 200px;
+		 	border-radius: 0px;
+		 	background-color: blue;
+		 	transform: rotate(360deg);
+		 }
+		 
+	</style>
+	<body>
+		<h1>Menu</h1>
+		<ul>
+		    <li><a href="">Trang chủ</a></li>
+		    <li><a href="">Sản phẩm</a></li>
+		    <li><a href="">Giới thiệu</a></li>
+		    <li><a href="">Khác</a></li>
+		</ul>
+		<div id="header"></div>
+	</body>
+</html>
